@@ -4,6 +4,18 @@ A Spring Boot-based microservices application that allows users to take quizzes 
 
 ---
 
+## 🛠️ Tech Stack
+
+- **Spring Boot** – Java application framework
+- **Spring Data JPA** – ORM for data persistence
+- **PostgreSQL** – Relational database for storing questions/quizzes
+- **Spring Cloud Netflix Eureka** – Service registry
+- **Spring Cloud OpenFeign** – Declarative REST client for inter-service communication
+- **Lombok** – Reduces boilerplate code
+- **JUnit** – Testing framework
+
+---
+
 ## 🧩 Microservices Overview
 
 ### 1. **Question Service**
@@ -53,12 +65,3 @@ The service registry enables service discovery. Both `quiz-service` and `questio
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Spring Boot** – Java application framework
-- **Spring Data JPA** – ORM for data persistence
-- **PostgreSQL** – Relational database for storing questions/quizzes
-- **Spring Cloud Netflix Eureka** – Service registry
-- **Spring Cloud OpenFeign** – Declarative REST client for inter-service communication
-- **Lombok** – Reduces boilerplate code
-- **JUnit** – Testing framework
