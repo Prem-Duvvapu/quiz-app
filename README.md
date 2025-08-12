@@ -12,7 +12,6 @@ A Spring Boot-based microservices application that allows users to take quizzes 
 - **Spring Cloud Netflix Eureka** – Service registry
 - **Spring Cloud OpenFeign** – Declarative REST client for inter-service communication
 - **Lombok** – Reduces boilerplate code
-- **JUnit** – Testing framework
 
 ---
 
@@ -64,4 +63,5 @@ This service is responsible for creating and managing quizzes. It communicates w
 The service registry enables service discovery. Both `quiz-service` and `question-service` register themselves to Eureka so they can locate each other without hardcoded URLs.
 
 ---
+
 
